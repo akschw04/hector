@@ -1,0 +1,1 @@
+<scenario>    <world>        <MagiccModel>            <ghgInputFileName>../input/climate/perturbations/RCP45/impulse/rcp45_CO2_impulse/RCP4pt5_Stab_CO2_impulse_1%_in2010.csv</ghgInputFileName>            <last-historical-year>2100</last-historical-year>        </MagiccModel>    </world></scenario>
