@@ -126,7 +126,7 @@ s << linestamp() << c->getComponentName() << DELIMITER \
 // documentation is inherited
 void CSVOutputStreamVisitor::visit( ForcingComponent* c ) {
     if( !core->outputEnabled( c->getComponentName() ) ) return;
-    streamsize oldPrecision = csvFile.precision( 4 );
+    streamsize oldPrecision = csvFile.precision( 8 );
     
     // Walk through the forcings map, outputting everything
     for( ForcingComponent::forcingsIterator it = c->forcings.begin(); it != c->forcings.end(); ++it ) {

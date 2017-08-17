@@ -28,7 +28,8 @@ namespace Hector {
  */
 CarbonCycleSolver::CarbonCycleSolver() : nc( 0 ),
 eps_abs( 1.0e-6 ),eps_rel( 1.0e-6 ),
-dt( 0.3 )
+//dt( 0.3 ) Original Value
+dt(0.1)
 {
 }
 

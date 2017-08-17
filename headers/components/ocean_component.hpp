@@ -22,7 +22,7 @@
 #include "models/oceanbox.hpp"
 
 #define OCEAN_MAX_TIMESTEP      1.0     //!< max/default timestep (yr)
-#define OCEAN_MIN_TIMESTEP      0.3     //!< minimum timestep (yr)
+#define OCEAN_MIN_TIMESTEP      0.01     //!< minimum timestep (yr)
 #define OCEAN_TSR_FACTOR        0.5     //!< timestep reduction factor when necessary
 #define OCEAN_TSR_TIMEOUT       20      //!< years we lock into reduced timestep
 #define OCEAN_TSR_TRIGGER1      0.1     //!< trigger1 to reduce timestep:
