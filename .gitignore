@@ -58,7 +58,7 @@ libs/
 *.kdev4
 
 # Output
-output/output
+output/
 output/*.csv
 
 # R
@@ -67,3 +67,4 @@ R/batchrunner/*.pdf
 R/batchrunner/*.csv
 .Rapp.history
 
+output/old output/outputstream_rcp45_doeclim_step_conc_reference.csv
