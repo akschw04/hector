@@ -58,8 +58,8 @@ libs/
 *.kdev4
 
 # Output
-output/
-output/*.csv
+#output/
+#output/*.csv
 
 # R
 .Rhistory
@@ -67,4 +67,5 @@ R/batchrunner/*.pdf
 R/batchrunner/*.csv
 .Rapp.history
 
-output/old output/outputstream_rcp45_doeclim_step_conc_reference.csv
+#output/old output/outputstream_rcp45_doeclim_step_conc_reference.csv
+#output/CH4oxidationtoCO2.PNG
